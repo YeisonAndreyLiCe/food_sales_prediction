@@ -1,19 +1,36 @@
 #  Food Sales Prediction
-This project aims to use machine learning algorihtm to predict the sales of food items in a supermarket. The dataset used is from [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#ProblemStatement"). The dataset contains 8523 rows and 12 columns. The dataset contains the following columns:
-* Item_Identifier
-* Item_Weight
-* Item_Fat_Content
-* Item_Visibility
-* Item_Type
-* Item_MRP
-* Outlet_Identifier
-* Outlet_Establishment_Year
-* Outlet_Size
-* Outlet_Location_Type
-* Outlet_Type
-* Item_Outlet_Sales
 
-The dataset is divided into two parts: train and test. The train dataset contains **8523 rows** and **12 columns**. The test dataset contains 5681 rows and 11 columns. The test dataset does not contain the Item_Outlet_Sales column. The Item_Outlet_Sales column is the target variable. The target variable is the sales of the food items in the supermarket. The train dataset is used to train the machine learning model. The test dataset is used to test the machine learning model. The test dataset is used to predict the Item_Outlet_Sales column. The Item_Outlet_Sales column is predicted using the machine learning model. The predicted Item_Outlet_Sales column is compared with the actual Item_Outlet_Sales column to check the accuracy of the machine learning model.
+The information use in this project corresponds to 2013 sales of 1559 products and was collected by data scientist at BigMart across 10 stores in different cities. Some features of each product have been defined. In order to help to the retailer to understand the product properties and the outlets that play a crucial role in the sales, this project aims to predict the sales of food products in each outlet, it will try to understand the properties of products and outlets which play a key role in increasing sales.  
+Source: [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#ProblemStatement")
+
+##  Data Dictionary
+![Data Dictionary](/images/data_dictionary.png)
+
+## Data
+![Data](/images/data_head.png)
+
+## Visualizations
+
+### Sales Distribution
+![Sales Histogram](/images/sales_distribution.png)
+The mean (and median) sales is closer to the low end of that range, with most of the data between 0 and around 6500 dollars. The few values above this are shown in the box plot as small circles, indicating that they are outliers.
+
+### Proportion of Data by Location and Outlet Type
+![Proportion of Data by Location and Outlet Type](/images/proportion_data_location_outlet_type.png)
+
+### Percentage of Revenue by Location and Outlet Type
+![Percentage of Revenue by Location ](/images/percentage_of_revenue.png)
+![Percentage of Revenue by Outlet Type](/images/percentage_of_revenue_outlet_type.png)
+
+### Sales by Outlet Type
+![Sales by Outlet Type](/images/sales_by_outlet_type.png)
+The outlet type Supermarket Type 3 has the highest sales in Tier 3.
+The outlet type Supermarket Type 1 has the highest sales in Tier 1 and Tier 2. (representing the highest percentage of the total sales categorized by outlet type).
+
+### Sales by Outlet Location and Item Type
+![Sales by Outlet Location](/images/sales_by_location_and_item_type.png)
+Having plotted the sales by item type and location it is clear that the sales present similar behaviour in all the locations. The highest sales are for the fruit and vegetable items, followed by snack foods. The lowest sales are for seafood items.
+
 
 In this project, the following machine learning algorithms are used:
 * Linear Regression
