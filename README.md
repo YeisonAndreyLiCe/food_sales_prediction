@@ -16,11 +16,11 @@ Source: [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/conte
 The mean (and median) sales is closer to the low end of that range, with most of the data between 0 and around 6500 dollars. The few values above this are shown in the box plot as small circles, indicating that they are outliers.
 
 ### Proportion of Data by Location and Outlet Type
-![Proportion of Data by Location and Outlet Type](/images/proportion_data_location_outlet_type.png)
+![Proportion of Data by Location and Outlet Type](/images/proportion_data_location_and_outlet_type.png)
 
 ### Percentage of Revenue by Location and Outlet Type
-![Percentage of Revenue by Location ](/images/percentage_of_revenue.png)
-![Percentage of Revenue by Outlet Type](/images/percentage_of_revenue_outlet_type.png)
+![Percentage of Revenue by Location ](/images/percentage_of_revenue_by_location.png)
+![Percentage of Revenue by Outlet Type](/images/percentage_of_revenue_by_outlet_type.png)
 
 ### Sales by Outlet Type
 ![Sales by Outlet Type](/images/sales_by_outlet_type.png)
