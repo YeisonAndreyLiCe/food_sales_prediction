@@ -1,6 +1,6 @@
 #  Food Sales Prediction
 
-The information use in this project corresponds to 2013 sales of 1559 products and was collected by data scientist at BigMart across 10 stores in different cities. Some features of each product have been defined. In order to help to the retailer to understand the product properties and the outlets that play a crucial role in the sales, this project aims to predict the sales of food products in each outlet, it will try to understand the properties of products and outlets which play a key role in increasing sales.  
+Predict sales of food products by implementing machine learning algorithms and in the process identify product properties and selling points that play a crucial role in sales..  
 Source: [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/#ProblemStatement")
 
 ##  Data Dictionary
@@ -16,7 +16,7 @@ Source: [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/conte
 The mean (and median) sales is closer to the low end of that range, with most of the data between 0 and around 6500 dollars. The few values above this are shown in the box plot as small circles, indicating that they are outliers.
 
 ### Proportion of Data by Location and Outlet Type
-![Proportion of Data by Location and Outlet Type](/images/proportion_data_location_and_outlet_type.png)
+![Proportion of Data by Location and Outlet Type](/images/proportion_data_by_location_and_outlet_type.png)
 
 ### Percentage of Revenue by Location and Outlet Type
 ![Percentage of Revenue by Location ](/images/percentage_of_revenue_by_location.png)
