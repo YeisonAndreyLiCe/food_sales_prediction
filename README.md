@@ -6,6 +6,11 @@ Source: [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/conte
 ##  Data Dictionary
 ![Data Dictionary](/images/data_dictionary.png)
 
+## Video Tutorial
+[![Video Tutorial](/images/sales_distribution.png)](https://www.loom.com/share/e078c42a6d0d45809d926cc48142bea2)
+
+[![Video Tutorial](/images/model_vs_actual_distribution.png)](https://www.loom.com/share/02b774b6d5ce47fa9b3ebcea0784889c)
+
 ## Data
 ![Data](/images/data_head.png)
 
@@ -20,7 +25,7 @@ The mean (and median) sales is closer to the low end of that range, with most of
 
 ### Percentage of Revenue by Location and Outlet Type
 ![Percentage of Revenue by Location ](/images/percentage_of_revenue_by_location.png)
-![Percentage of Revenue by Outlet Type](/images/percentage_of_revenue_by_outlet_type.png)
+![Percentage of Revenue by Outlet Type](/images/percentage_of_revenue_by_location.png)
 
 ### Sales by Outlet Type
 ![Sales by Outlet Type](/images/sales_by_outlet_type.png)
