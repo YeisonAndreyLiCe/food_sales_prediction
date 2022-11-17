@@ -5,3 +5,7 @@ food.csv
 iris_example.csv
 .ipynb_checkpoints/
 Analisys
+data/cleaned/dataset_cleaned.csv
+data/cleaned/predictions.csv
+data/raw/test_file.csv
+data/raw/train_file.csv

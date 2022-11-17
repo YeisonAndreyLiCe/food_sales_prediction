@@ -6,10 +6,13 @@ Source: [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/conte
 ##  Data Dictionary
 ![Data Dictionary](/images/data_dictionary.png)
 
-## Video Tutorial
-[![Video Tutorial]](https://youtu.be/VFdyNaOIePQ)
+## Video: Non technical overview of the project
 
-[![Video Tutorial]](https://youtu.be/7t6qJIXqQ9s)
+## video part 1
+[![Video Tutorial]](images/video_2.png)(https://youtu.be/VFdyNaOIePQ)
+
+## video part 2
+[![Video Tutorial]](images/video_2.png)(https://youtu.be/7t6qJIXqQ9s)
 
 ## Data
 ![Data](/images/data_head.png)
@@ -18,7 +21,9 @@ Source: [Analytics Vidhya 2013-2022]("https://datahack.analyticsvidhya.com/conte
 
 ### Sales Distribution
 ![Sales Histogram](/images/sales_distribution.png)
-The mean (and median) sales is closer to the low end of that range, with most of the data between 0 and around 6500 dollars. The few values above this are shown in the box plot as small circles, indicating that they are outliers.
+Observation: 
+- Sales are right skewed.
+- Most of the sales are  between 0 and around 6500 dollars.
 
 ### Proportion of Data by Location and Outlet Type
 ![Proportion of Data by Location and Outlet Type](/images/proportion_data_by_location_and_outlet_type.png)
@@ -36,14 +41,12 @@ The outlet type Supermarket Type 1 has the highest sales in Tier 1 and Tier 2. (
 ![Sales by Outlet Location](/images/sales_by_location_and_item_type.png)
 Having plotted the sales by item type and location it is clear that the sales present similar behaviour in all the locations. The highest sales are for the fruit and vegetable items, followed by snack foods. The lowest sales are for seafood items.
 
+## Decision Tree Model
+Having implemented a linear regression model and a decision tree model, the decision tree model performed better. The decision tree model had a lower RMSE and a higher R2 score. <!-- The decision tree model was also able to identify the most important features in the dataset. The most important features were the item type, the outlet type and the outlet location. The item type was the most important feature, followed by the outlet type and the outlet location. The item type was the most important feature because it was able to capture the sales of the different item types. The outlet type was the second most important feature because it was able to capture the sales of the different outlet types. The outlet location was the third most important feature because it was able to capture the sales of the different outlet locations. -->
+### Model Performance
+**$R^2$ Score**: 0.58
+**RMSE**: 1128.8 dollars.
 
-In this project, the following machine learning algorithms are used:
-* Linear Regression
- Implementation of Linear Regression using Scikit-Learn
- ```python
- from sklearn.linear_model import LinearRegression
-
- ```
-* Decision Tree Regression
-
+### Feature Importance
+During the visualizations, it was clear that the item type was the most important feature. <!-- The decision tree model was able to confirm this -->. The item type was the most important feature, followed by the outlet type and the outlet location. 
 
